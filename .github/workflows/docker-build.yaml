@@ -3,7 +3,7 @@ name: Azure ACR Build and Push
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-push:
